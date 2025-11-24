@@ -73,3 +73,33 @@ Input:-258,118,178
 Output:-258 tallest
 
 
+#include <stdio.h> 
+void main() {
+int a, b, c;
+printf("Height of 3 persons:\n");
+scanf("%d %d %d", &a, &b, &c);
+if (a > b)
+{
+if (a > c)
+{
+printf("%d is tallest", a);
+}
+else 
+{
+printf("%d is tallest", c);
+}
+}
+else
+{
+if (b > c)
+{
+printf("%d is tallest", b);
+}
+else
+{
+printf("%d is tallest", c);
+}
+}
+}
+
+
