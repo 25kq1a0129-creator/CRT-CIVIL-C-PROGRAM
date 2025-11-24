@@ -38,7 +38,7 @@ else
 
 
 
-2.write a program in telugu code
+2.WRITE CODE IN THE PROGRAM TELUGU
 
 #include <stdio.h>
 
