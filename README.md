@@ -63,3 +63,13 @@ int main() {
 
 name of the code is charan
 
+Write a code snipped in ladder if A B  and C are friends and they have different height determinr who is the tallent among them 
+Case 1 ; 
+Input : 158,198,168
+Output ;-198 is tallent
+
+Case 2 ;-
+Input:-258,118,178
+Output:-258 tallest
+
+
