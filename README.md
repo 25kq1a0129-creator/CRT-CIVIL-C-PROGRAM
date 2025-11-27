@@ -44,7 +44,7 @@ Q.WRITE CODE IN THE PROGRAM TELUGU
 
 int main() {
     // Write C code here
-    printf("u0c27\u0c30\u0c23\u0c3f\u0c27,u0c30,u0c4d");
+    printf("\u0c27\u0c30\u0c23\u0c3f\u0c27\u0c30\u0c4d");
 
     return 0;
 }
@@ -56,7 +56,7 @@ name of the code is Dharanidhar
 
 int main() {
     // Write C code here
-    printf("\u0c1a\uoc30\u0c23\u0c4d");
+    printf("\u0c1a\u0c30\u0c23\u0c4d");
 
     return 0;
 }
@@ -110,28 +110,38 @@ case2:-
 input:-0
 output:-sunday
 
-#include<stdio.h>
-void main() {
-int number;
-scanf("%d", &number);
-switch (number)
-{
-case 0;
-printf("it is sunday")
-break;
-case1:-printf(" it is monday");
-break;
-case2:-printf("it is tuesday")
-break;
-case3:-printf("it is wednesday")
-break;
-case4:printf{"it is thursday")
-break;
-case5:-printf("it is friday)
-break;
-case6:-printf("it is saturday")
-default
-printf("invalid number gives numbers 0 to 6)
+#include <stdio.h>
+
+int main() {
+    int number;
+    scanf("%d", &number);
+    
+    switch (number) {
+        case 0:
+            printf("It is Sunday\n");
+            break;
+        case 1:
+            printf("It is Monday\n");
+            break;
+        case 2:
+            printf("It is Tuesday\n");
+            break;
+        case 3:
+            printf("It is Wednesday\n");
+            break;
+        case 4:
+            printf("It is Thursday\n");
+            break;
+        case 5:
+            printf("It is Friday\n");
+            break;
+        case 6:
+            printf("It is Saturday\n");
+            break;
+        default:
+            printf("Invalid number. Give numbers 0 to 6.\n");
+    }
+    return 0;
 }
 
 Q.Write a code snipped for the following statement
