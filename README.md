@@ -102,7 +102,37 @@ printf("%d is tallest", c);
 }
 }
 
-Q.in a class room all the students and the teacher are playing number game if a student selesct randomly a number below 7(from 0 to 6) thev class teacher will the day of the week that corresponding to that number (sunday,monday
+Q.in a class room all the students and the teacher are playing number game if a student selesct randomly a number below 7(from 0 to 6) thev class teacher will the day of the week that corresponding to that number (sunday,monday,....,saturday)
+case1:-1
+input:-5
+output:-friday
+case2:-
+input:-0
+output:-sunday
+
+#include<stdio.h>
+void main() {
+int number;
+scanf("%d", &number);
+switch (number)
+{
+case 0;
+printf("it is sunday")
+break;
+case1:-printf(" it is monday");
+break;
+case2:-printf("it is tuesday")
+break;
+case3:-printf("it is wednesday")
+break;
+case4:printf{"it is thursday")
+break;
+case5:-printf("it is friday)
+break;
+case6:-printf("it is saturday")
+default
+printf("invalid number gives numbers 0 to 6)
+}
 
 Q.Write a code snipped for the following statement
 "In the classroom the teacher asked the student to call  out the event at the even number up to a given number and asked another student to count them
@@ -186,15 +216,40 @@ int main() {
 
 Q.the factorial loop of a non-negative integer is the product of all positive integers.Less than or equal to that integers.
 
-#include<stdio.h>
+#include <stdio.h>
 int main() {
-int num ,i ,fact=1
-scanf("%d",&num);
-while(i<=num)
+    int num, i, fact = 1;           // Add missing semicolon
+    scanf("%d", &num);
+    i = 1;                          // Initialize i
+    while (i <= num) {
+        fact = fact * i;            // Fix multiplication and use i instead of 1
+        i++;                        // Increment i so the loop finishes
+    }
+    printf("%d", fact);
+    return 0;                       // Place return inside main
+}
+
+Q. write a code snipped for the following statement 
+A palindrome number is a number that reads the same forward and back ward 
+
+#include <stdio.h>
+int main()
 {
-fact=fact*1;
-}
-printf("%d",fact);
-}
-return 0;
-}
+    int n,num,sum=0,rem;
+    scanf("%d",&n);
+    num=n;
+    while(n>0)
+    {
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    if(sum==num)
+    {
+        printf("%d is a palindrome",num);
+    }
+    else
+    {
+        printf("%d is not a palindrome",num);
+    }
+    return 0;}
