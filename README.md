@@ -102,7 +102,7 @@ printf("%d is tallest", c);
 }
 }
 
-Q.in a class room all the students and the teacher
+Q.in a class room all the students and the teacher are playing number game if a student selesct randomly a number below 7(from 0 to 6) thev class teacher will the day of the week that corresponding to that number (sunday,monday
 
 Q.Write a code snipped for the following statement
 "In the classroom the teacher asked the student to call  out the event at the even number up to a given number and asked another student to count them
@@ -174,10 +174,27 @@ int main() {
     for(i=1;i<=num;i=i+1)
     {
      if(num%i==0)
-      sum=sum+i;
-    }
-      
-      
-      
+      printf("%d",is a perfect number",num);
+       }
+      else
+      {
+      printf("%d",is not a perfect number",num);
+      }
       return 0;
+}
+
+
+Q.the factorial loop of a non-negative integer is the product of all positive integers.Less than or equal to that integers.
+
+#include<stdio.h>
+int main() {
+int num ,i ,fact=1
+scanf("%d",&num);
+while(i<=num)
+{
+fact=fact*1;
+}
+printf("%d",fact);
+}
+return 0;
 }
