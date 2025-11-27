@@ -253,7 +253,9 @@ int main()
         printf("%d is not a palindrome",num);
     }
     return 0;}
-Q.a strong number is apositive integer where the sum of the factorial of its individual digits equals the original number. for example, 145 is a strong number because1!
+
+Q.write a code snipped for the following statement
+.a strong number is apositive integer where the sum of the factorial of its individual digits equals the original number. for example, 145 is a strong number because1!
 4!+5!=1+24+120=145
 
 #include <stdio.h>
@@ -285,3 +287,15 @@ int main()
     }
     return 0;
 }
+
+Q.write a code snipped for the following statement
+An Armstrong number is a number is anumber that is equal to the sum of its own dights, each raised to the power of the total number of digit
+
+
+
+
+
+
+
+
+
