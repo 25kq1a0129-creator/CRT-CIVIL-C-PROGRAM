@@ -300,7 +300,15 @@ int main()
 
 Q.write a code snipped for the following statement
 An Armstrong number is a number is anumber that is equal to the sum of its own dights, each raised to the power of the total number of digit
-
+#include <stdio.h>
+int main() {
+    int i = 1;
+    do {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 5);
+    return 0;
+}
 
 
 
