@@ -310,10 +310,86 @@ int main() {
     return 0;
 }
 
+Q.write a code snipped for the following statement
+break statement in c is a control statement used to terminate the execution o the nearest enclosing loop [for,while or do while] or switch when a break statement is encounted 
+The program immediately    
 
+#include <stdio.h>
 
+int main() {
+    for(int i=1;i<=10;i++)
+    {
+        if(i==5)
+        {
+            break;//exit the loop when i is 5
+        }
+        printf("%d",i);
+    }
+    printf("\nloop treminated.\n");
 
+    return 0;
+}
+Q. adding Function 
+ 
+#include <stdio.h>
 
+int sum(int a, int b)
+{
+    return a + b;
+}
 
+int main() {
+    int x, y, add = 0;
+    printf("Enter two numbers: ");
+    scanf("%d%d", &x, &y);
+    add = sum(x, y);
+    printf("sum is %d\n", add);
+    return 0;
+}
+  
+Q. subtraction program 
 
+#include <stdio.h>
 
+int sum(int a, int b)
+{
+    return a - b;
+}
+
+int main() {
+    int x, y, sub = 0;
+    printf("Enter two numbers: ");
+    scanf("%d%d", &x, &y);
+    sub = sum(x, y);
+    printf("sum is %d\n", sub);
+    return 0;
+}
+
+Q.Adding and subtraction funtion
+#include <stdio.h>
+
+int sum(int a, int b)
+{
+    return a + b; // Correction: sum function should add, not subtract
+}
+
+int sub(int m, int n)
+{
+    return m - n; // Correction: sub function subtracts
+}
+
+int main() {
+    int x, y, add = 0, subtra = 0; // Correction: Added '=' and fixed variable name
+
+    printf("Enter two numbers for addition: ");
+    scanf("%d%d", &x, &y);
+    add = sum(x, y);
+    printf("Sum is %d\n", add);
+
+    printf("Enter two numbers for subtraction: ");
+    scanf("%d%d", &x, &y);
+    subtra = sub(x, y);
+    printf("Subtraction is %d\n", subtra);
+
+    return 0;
+} 
