@@ -467,3 +467,23 @@ int main()
     cherry2();
     return 0;
 }
+Q.with my name
+
+include <stdio.h>
+
+void Dharanidhar1()
+{
+    printf("hello😎 ");
+}
+
+void Danush2()
+{
+    printf("hey");
+}
+
+int main()
+{
+    Dharanidhar1();
+    Danush2();
+    return 0;
+}
