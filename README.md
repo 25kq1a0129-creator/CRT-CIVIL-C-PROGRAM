@@ -393,3 +393,77 @@ int main() {
 
     return 0;
 } 
+
+Q.mulpication and division program
+#include <stdio.h>
+
+// Function to subtract two numbers
+int subtract(int a, int b) {
+    return a - b;
+}
+
+// Function to sum two numbers
+int sum(int a, int b) {
+    return a + b;
+}
+
+// Function to multiply two numbers
+int multi(int a, int b) {
+    return a * b;
+}
+
+// Function to divide two numbers
+int divi(int a, int b) {
+    return a / b;
+}
+
+// Function to find modulus
+int modul(int a, int b) {
+    return a % b;
+}
+
+int main() {
+    int a, b, sub, add, mul, divv, modu;
+    
+    printf("Enter two integers separated by a space: ");
+    scanf("%d %d", &a, &b); // Corrected input format
+
+    sub = subtract(a, b);   // Fixed function name
+    printf("\nSubtraction      = %d\n", sub);
+
+    add = sum(a, b);
+    printf("Addition         = %d\n", add);
+
+    mul = multi(a, b);      // Fixed variable and function name
+    printf("Multiplication   = %d\n", mul);
+
+    divv = divi(a, b);
+    printf("Division         = %d\n", divv);
+
+    modu = modul(a, b);
+    printf("Modulus          = %d\n", modu);
+
+    return 0;
+}
+
+
+
+Q. code for name program
+#include <stdio.h>
+
+void cherry1()
+{
+    printf("hello😎 ");
+}
+
+void cherry2()
+{
+    printf("hey");
+}
+
+int main()
+{
+    cherry1();
+    cherry2();
+    return 0;
+}
